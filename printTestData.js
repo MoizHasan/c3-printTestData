@@ -15,7 +15,7 @@ function printTestData(fetchData) {
                     if (part instanceof Date) {
                         part = part.toUTCString();
                     }
-                    out += o + ': "' + part + '",\n';
+                    out += o + ": '" + part + "',\n";
                 }
                }
             }); 
